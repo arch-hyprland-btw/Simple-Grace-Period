@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "A simple 15 minute grace period datapack",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
+  }
+}
