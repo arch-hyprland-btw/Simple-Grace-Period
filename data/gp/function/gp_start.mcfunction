@@ -1,3 +1,4 @@
 gamerule pvp false
-tellraw @a {"bold":true,"color":"yellow","text":"Grace period started, 30 minutes until pvp is enabled!"}
-schedule function gp:gp_end 36000t
+title @a subtitle {"text":"30 minutes until pvp is enabled","bold":true,"color":"yellow"}
+title @a title {"text":"Grace Period Started","bold":true,"color":"dark_red"}
+schedule function gp:gp_end 1800s
